@@ -1,0 +1,38 @@
+<resources>
+
+    <declare-styleable name="MyView">
+        <attr name="mShowText" format="boolean" />
+        <attr name="labelPosition" format="enum">
+            <enum name="left" value="0" />
+            <enum name="right" value="1" />
+        </attr>
+        <attr name="labelColor" format="color" />
+        <attr name="labelY" format="dimension" />
+        <attr name="labelWidth" format="dimension" />
+        <attr name="labelHeight" format="dimension" />
+        <attr name="highlightStrength" format="float" />
+        <attr name="autoCenterPointerInSlice" format="boolean" />
+        <attr name="pieRotation" format="integer" />
+        <attr name="pointerRadius" format="dimension" />
+    </declare-styleable>
+    <declare-styleable name="MyView_1">
+        <attr name="ringBgColor" format="color" />
+        <attr name="ringFgColor" format="color" />
+        <attr name="fillColor" format="color" />
+        <attr name="ringWidth" format="dimension" />
+        <attr name="startAngle" format="integer" />
+        <attr name="sweepAngle" format="integer" />
+        <attr name="isShowText" format="boolean" />
+        <attr name="text1Color" format="color" />
+        <attr name="text2Color" format="color" />
+        <attr name="text3Color" format="color" />
+        <attr name="text4Color" format="color" />
+        <attr name="text5Color" format="color" />
+        <attr name="text1Size" format="dimension" />
+        <attr name="text2Size" format="dimension" />
+        <attr name="text3Size" format="dimension" />
+        <attr name="text4Size" format="dimension" />
+        <attr name="text5Size" format="dimension" />
+    </declare-styleable>
+
+</resources>

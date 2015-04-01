@@ -1,0 +1,53 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.customviewdemo"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.example.customviewdemo.myview.MyView_1
+        android:id="@+id/myView_1"
+        android:layout_width="match_parent"
+        android:layout_height="280dp"
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        custom:fillColor="@android:color/white"
+        custom:isShowText="true"
+        custom:ringBgColor="#FFC54D"
+        custom:ringFgColor="#ffae01"
+        custom:ringWidth="15dp"
+        custom:startAngle="135"
+        custom:sweepAngle="270"
+        custom:text1Color="#cccccc"
+        custom:text1Size="18sp"
+        custom:text2Color="#ffae01"
+        custom:text2Size="48sp"
+        custom:text3Color="#ffae01"
+        custom:text3Size="18sp"
+        custom:text4Color="#ffae01"
+        custom:text4Size="18sp"
+        custom:text5Color="#ffae01"
+        custom:text5Size="18sp" />
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="0 ms" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开始测速" />
+
+    <Button
+        android:id="@+id/btn_cancle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="取消测速" />
+
+</LinearLayout>
